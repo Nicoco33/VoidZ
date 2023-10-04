@@ -1,5 +1,5 @@
-execute run summon skeleton ~ ~ ~ {DeathLootTable:"southhostilemobs:skeletonloottable",CustomName:'[{"text":"Skeleton","color":"gray"}]',HandItems:[{id:bow,Count:1}],HandDropChances:[f]}
-execute run summon skeleton ~ ~ ~ {DeathLootTable:"southhostilemobs:skeletonloottable",CustomName:'[{"text":"Skeleton","color":"gray"}]',HandItems:[{id:bow,Count:1}],HandDropChances:[f]}
-execute run summon skeleton ~ ~ ~ {DeathLootTable:"southhostilemobs:skeletonloottable",CustomName:'[{"text":"Skeleton","color":"gray"}]',HandItems:[{id:bow,Count:1}],HandDropChances:[f]}
-execute run summon skeleton ~ ~ ~ {DeathLootTable:"southhostilemobs:skeletonloottable",CustomName:'[{"text":"Skeleton","color":"gray"}]',HandItems:[{id:bow,Count:1}],HandDropChances:[f]}
-execute run summon skeleton ~ ~ ~ {DeathLootTable:"southhostilemobs:skeletonloottable",CustomName:'[{"text":"Skeleton bowless","color":"white"}]',CustomNameVisible:1b,Health:30,HandItems:[{id:stone_axe,tag:{Enchantments:[{id:sharpness,lvl:1}]},Count:1}],HandDropChances:[f],Attributes:[{Name:"generic.max_health",Base:30f}]}
+execute run summon skeleton ~ ~ ~ {DeathLootTable:"south:skeletonloottable",CustomName:'[{"text":"Skeleton","color":"gray"}]',HandItems:[{id:bow,Count:1}],HandDropChances:[f]}
+execute run summon skeleton ~ ~ ~ {DeathLootTable:"south:skeletonloottable",CustomName:'[{"text":"Skeleton","color":"gray"}]',HandItems:[{id:bow,Count:1}],HandDropChances:[f]}
+execute run summon skeleton ~ ~ ~ {DeathLootTable:"south:skeletonloottable",CustomName:'[{"text":"Skeleton","color":"gray"}]',HandItems:[{id:bow,Count:1}],HandDropChances:[f]}
+execute run summon skeleton ~ ~ ~ {DeathLootTable:"south:skeletonloottable",CustomName:'[{"text":"Skeleton","color":"gray"}]',HandItems:[{id:bow,Count:1}],HandDropChances:[f]}
+execute run summon skeleton ~ ~ ~ {DeathLootTable:"south:skeletonloottable",CustomName:'[{"text":"Skeleton bowless","color":"white"}]',CustomNameVisible:1b,Health:30,HandItems:[{id:stone_axe,tag:{Enchantments:[{id:sharpness,lvl:1}]},Count:1}],HandDropChances:[f],Attributes:[{Name:"generic.max_health",Base:30f}]}
