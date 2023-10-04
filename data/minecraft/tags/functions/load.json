@@ -1,6 +1,5 @@
 {
     "values" : [
-        "voidz:load",
-        "configuration:init"
+        "voidz:config/init"
     ]
 }

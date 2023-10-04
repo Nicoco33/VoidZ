@@ -11,8 +11,23 @@ execute as @p run difficulty hard
 execute as @p run gamerule doWeatherCycle false
 execute as @p run weather clear
 
+kill @e[type=villager]
 
-# South information
+# ===========
+# Objectives
+# ===========
+
+# player classes
+scoreboard objectives add class dummy "class"
+scoreboard players set @a class 0
+
+# player infos
+scoreboard objectives add Sneaking_ps minecraft.custom:minecraft.sneak_time
+
+# Spawn init
+function spawn:placeshop
+
+# South init
 execute positioned 15 77 215 run summon armor_stand ~ ~1 ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,CustomName:"{\"text\":\"Push to start South adventure\",\"color\":\"gold\"}",CustomNameVisible:1b}
 # execute positioned 15 78 215 
 
