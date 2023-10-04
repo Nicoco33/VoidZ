@@ -1,0 +1,14 @@
+{
+    "__comment": "Made ",
+    "criteria": {
+        "chair1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "voidz:shopcase_craft"
+            }
+        }
+    },
+    "rewards": {
+        "function": "voidz:giveitem"
+    }
+}
