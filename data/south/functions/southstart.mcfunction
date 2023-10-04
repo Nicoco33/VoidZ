@@ -7,5 +7,4 @@ execute as @p run setblock 10 71 228 air
 #execute as @p run team modify South color gold 
 #execute as @p run team modify South deathMessageVisibility hideForOtherTeams
 
-team add south-team "South Team"
-team join south-team @s
+function south:team/set_team

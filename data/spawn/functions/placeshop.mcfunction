@@ -1,2 +1,2 @@
     summon villager 15 67 41 {UUID:420,NoAI:1,Invulnerable:1, CustomName:'{"text":"Gregory"}'}
-    summon villager 19 67 43 {UUID:421,NoAI:1,Invulnerable:1, CustomName:'{"text":"Selldingo"}', Offers:{Recipes:[{maxUses:100000,buy:{id:"emerald",Count:20},sell:{id:"bow",Count:1 }},{maxUses:100000,buy:{id:"emerald",Count:5},sell:{id:"arrow",Count:20 }}]}}
+    summon villager 19 67 43 {UUID:421,NoAI:1,Invulnerable:1, CustomName:'{"text":"Selldingo"}', Rotation:[], Offers:{Recipes:[{maxUses:100000,buy:{id:"emerald",Count:20},sell:{id:"bow",Count:1 }},{maxUses:100000,buy:{id:"emerald",Count:5},sell:{id:"arrow",Count:20 }}]}}
