@@ -17,15 +17,6 @@
 					"name": "south:standardtable/potioncommon"
 				}
 			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"name": "south:standardtable/ressourcecommon"
-				}
-			]
 		}
 	]
 }

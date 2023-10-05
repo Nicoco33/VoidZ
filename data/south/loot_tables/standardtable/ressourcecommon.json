@@ -3,13 +3,13 @@
     "pools": [
       {
         "rolls": {
-          "min": 0,
-          "max": 3
+          "min": 1,
+          "max": 10
         },
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:emerald"
+            "name": "minecraft:arrow"
           }
         ]
       }

@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16711680,display:{Name:'[{\"text\":\"Common healing potion\",\"italic\":false,\"color\":\"gray\"}]',Lore:['[{\"text\":\"Use it at any time.\",\"italic\":false}]']},HideFlags:39,CustomPotionEffects:[{Id:6,Duration:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16764928,display:{Name:'[{\"text\":\"Common strenght potion\",\"italic\":false,\"color\":\"gray\"}]',Lore:['[{\"text\":\"Give strenght for a short time.\",\"italic\":false}]']},HideFlags:39,CustomPotionEffects:[{Id:5,Duration:600}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:61183,display:{Name:'[{\"text\":\"Common swiftness potion\",\"italic\":false,\"color\":\"gray\"}]',Lore:['[{\"text\":\"Exclusively to run away.\",\"italic\":false}]']},HideFlags:39,CustomPotionEffects:[{Id:5,Duration:600}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
