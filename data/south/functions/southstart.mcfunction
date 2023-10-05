@@ -11,4 +11,16 @@ execute as @p run setblock -15 63 273 air
 #execute as @p run team modify South color gold 
 #execute as @p run team modify South deathMessageVisibility hideForOtherTeams
 
-function south:team/set_team
+# SET TEAM
+team add southteam "South Team"
+team modify southteam color gold
+
+# SET Missions
+scoreboard objectives add south_mission dummy "Objectifs : Récupérez les 2 Water Pumps !"
+scoreboard objectives setdisplay sidebar.team.gold south_mission
+
+# Set Valet House Mission
+scoreboard players add Valet_House south_mission 0
+
+# Set Valet House Mission
+scoreboard players add Attendant_Skull south_mission 0

@@ -1,2 +1,2 @@
-execute as @s run team leave south-team
-execute as @s run scoreboard players set @s south_mission 0
+execute as @s run team leave @s
+say "t'as quitté la team"
