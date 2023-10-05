@@ -4,8 +4,9 @@
 		{
 			"rolls": {
 				"min": 0,
-				"max": 1
+				"max": 2
 			},
+			"bonus_rolls": 0.5,
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -36,7 +37,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomPotionColor:61183,display:{Name:'[{\"text\":\"Common swiftness potion\",\"italic\":false,\"color\":\"gray\"}]',Lore:['[{\"text\":\"Exclusively to run away.\",\"italic\":false}]']},HideFlags:39,CustomPotionEffects:[{Id:5,Duration:600}]}"
+							"tag": "{CustomPotionColor:61183,display:{Name:'[{\"text\":\"Common swiftness potion\",\"italic\":false,\"color\":\"gray\"}]',Lore:['[{\"text\":\"Exclusively to run away.\",\"italic\":false}]']},HideFlags:39,CustomPotionEffects:[{Id:1,Duration:600}]}"
 						}
 					]
 				}

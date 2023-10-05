@@ -1,0 +1,79 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"bonus_rolls": 0.5,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_knockback\",Amount:0.1,Slot:mainhand,Name:\"generic.attack_knockback\",UUID:[I;-12395,13283,125043,-26566]}],display:{Name:'[{\"text\":\"Uncommon Rusty skeleton sword\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Old sword made from bones and rusty iron.\",\"italic\":false}]']}}"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 1
+							}
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 1
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0.02,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-12395,23883,125043,-47766]}],display:{Name:'[{\"text\":\"Uncommon Rusty skeleton axe\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Old axe made from bones and rusty iron.\",\"italic\":false}]']}}"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 1
+							}
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 1
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.01,Slot:mainhand,Name:\"generic.movement_speed\",UUID:[I;-12395,24383,125043,-48766]}],display:{Name:'[{\"text\":\"Uncommon Skeleton bow\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Old bow made frome broken bones.\",\"italic\":false}]']}}"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 0.4
+							}
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}
+
+
+
