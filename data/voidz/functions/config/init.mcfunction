@@ -10,6 +10,8 @@ execute as @p run time set day
 execute as @p run difficulty hard
 execute as @p run gamerule doWeatherCycle false
 execute as @p run weather clear
+execute as @p run gamerule naturalRegeneration false
+
 
 kill @e[type=villager]
 
