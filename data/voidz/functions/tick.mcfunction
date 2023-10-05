@@ -9,8 +9,9 @@ execute as @a[x=16.5, y=71, z=43.5, distance=..1, scores={class=3}] run function
 
 
 # SOUTH
-execute if score south_started south_mission matches 1 run function south:south_tick
+execute if score #south_started south_mission matches 1 run function south:south_tick
 
 execute as @e[x=8, y=75, z=218.5, dx=10, type=player, team=!southteam] run function south:team/join_team
 execute as @e[x=8, y=74, z=212.5, dx=10, dy=.2, type=player, team=southteam] run function south:team/leave_team
 setblock -77 79 272 air
+

@@ -26,3 +26,4 @@ scoreboard players add Valet_House south_mission 0
 
 # Set Valet House Mission
 scoreboard players add Attendant_Skull south_mission 0
+scoreboard players add #is_door_open south_mission 0

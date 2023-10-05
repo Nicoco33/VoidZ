@@ -1,1 +1,3 @@
-execute if data block 22 78 415 Items[{Slot:0b, id:"minecraft:skeleton_skull", tag:{display:{Name:'{"text": "Attendant Skeleton Skull", "italic": false, "color": "gold"}'}}}] run say "ok"
+
+# Attendant Skull Mission
+execute if score #is_door_open south_mission matches 0 if data block 22 78 415 Items[{Slot:0b,tag:{Tags:["attendant_skull"]}}] run function south:mission/attendant_skull/open_door

@@ -36,7 +36,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"attended_skull\"],display:{Name:'[{\"text\":\"Skeleton skull\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"The attendant skeleton skull, it looks like a key, only 8 teeth still.\",\"italic\":false}]']},Enchantments:[{}]}"
+							"tag": "{Tags:[\"attendant_skull\"],display:{Name:'[{\"text\":\"Attendant Skeleton Skull\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"The attendant skeleton skull, it looks like a key, only 8 teeth still.\",\"italic\":false}]']},Enchantments:[{}]}"
 						}
 					]
 				}
