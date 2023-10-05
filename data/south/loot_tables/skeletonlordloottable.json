@@ -58,7 +58,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:0.2,Slot:head,Name:\"generic.armor\",UUID:[I;-12395,24383,125043,-48766]}],display:{Name:'[{\"text\":\"Skeleton lord crown\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Huge crown, not at your size but it will make it.\",\"italic\":false}]']},Enchantments:[{id:\"unbreaking\",lvl:2}]}"
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:0.2,Slot:head,Name:\"generic.armor\",UUID:[I;-12395,24383,125043,-48766]}],Trim:{pattern:dune,material:amethyst},display:{Name:'[{\"text\":\"Skeleton lord crown\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Huge crown, not at your size but it will make it.\",\"italic\":false}]']},Enchantments:[{id:\"unbreaking\",lvl:2}]}"
 						},
 						{
 							"function": "minecraft:set_damage",

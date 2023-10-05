@@ -13,7 +13,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.1,Slot:head,Name:\"generic.knockback_resistance\",UUID:[I;-12395,19183,125043,-38366]}],display:{Name:'[{\"text\":\"Uncommon skeleton helmet\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Made from bones and rusty iron.\",\"italic\":false}]']},Enchantments:[{}]}"
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.1,Slot:head,Name:\"generic.knockback_resistance\",UUID:[I;-12395,19183,125043,-38366]}],Trim:{pattern:dune,material:amethyst},display:{Name:'[{\"text\":\"Uncommon skeleton helmet\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Made from bones and rusty iron.\",\"italic\":false}]']},Enchantments:[{}]}"
 						},
 						{
 							"function": "minecraft:set_damage",
@@ -34,7 +34,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.1,Slot:chest,Name:\"generic.knockback_resistance\",UUID:[I;-12395,19183,125043,-38366]}],display:{Name:'[{\"text\":\"Uncommon skeleton chestplate\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Made from bones and rusty iron.\",\"italic\":false}]']},Enchantments:[{}]}"
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.1,Slot:chest,Name:\"generic.knockback_resistance\",UUID:[I;-12395,19183,125043,-38366]}],Trim:{pattern:dune,material:amethyst},display:{Name:'[{\"text\":\"Uncommon skeleton chestplate\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Made from bones and rusty iron.\",\"italic\":false}]']},Enchantments:[{}]}"
 						},
 						{
 							"function": "minecraft:set_damage",
@@ -55,7 +55,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.1,Slot:legs,Name:\"generic.knockback_resistance\",UUID:[I;-12395,19183,125043,-38366]}],display:{Name:'[{\"text\":\"Uncommon skeleton leggins\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Made from bones and rusty iron.\",\"italic\":false}]']},Enchantments:[{}]}"
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.1,Slot:legs,Name:\"generic.knockback_resistance\",UUID:[I;-12395,19183,125043,-38366]}],Trim:{pattern:dune,material:amethyst},display:{Name:'[{\"text\":\"Uncommon skeleton leggins\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Made from bones and rusty iron.\",\"italic\":false}]']},Enchantments:[{}]}"
 						},
 						{
 							"function": "minecraft:set_damage",
@@ -76,7 +76,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.1,Slot:feet,Name:\"generic.knockback_resistance\",UUID:[I;-12395,19183,125043,-38366]}],display:{Name:'[{\"text\":\"Uncommon skeleton boots\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Made from bones and rusty iron.\",\"italic\":false}]']},Enchantments:[{}]}"
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.1,Slot:feet,Name:\"generic.knockback_resistance\",UUID:[I;-12395,19183,125043,-38366]}],Trim:{pattern:dune,material:amethyst},display:{Name:'[{\"text\":\"Uncommon skeleton boots\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"Made from bones and rusty iron.\",\"italic\":false}]']},Enchantments:[{}]}"
 						},
 						{
 							"function": "minecraft:set_damage",

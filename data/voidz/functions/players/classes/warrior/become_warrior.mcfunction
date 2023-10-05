@@ -2,6 +2,10 @@ clear @s
 
 # Donne un arc au joueur
 give @s minecraft:iron_sword
+give @s leather_boots{display:{color:11546150,Name:'[{"text":"Commune Bottes en cuir ","italic":false,"color":"white"}]',Lore:['[{"text":"Bottes pas folles, mais ya que ca.","italic":false}]']}}
+give @s leather_chestplate{display:{color:11546150,Name:'[{"text":"Commune Tunique en cuir ","italic":false,"color":"white"}]',Lore:['[{"text":"Ca sent encore la vachette","italic":false}]']}}
+give @s leather_leggings{display:{color:11546150,Name:'[{"text":"Commune Pantalon en cuir ","italic":false,"color":"white"}]',Lore:['[{"text":"Ca sent encore la vachette","italic":false}]']}}
+give @s leather_helmet{display:{color:11546150,Name:'[{"text":"Commune Chapeau en cuir ","italic":false,"color":"white"}]',Lore:['[{"text":"Ca sent encore la vachette","italic":false}]']}}
 
 # Définit la santé maximale du joueur à 10
 attribute @s minecraft:generic.max_health base set 20
