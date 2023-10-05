@@ -1,1 +1,1 @@
-fill -75 74 272 -77 74 274 oak_planks
+setblock -77 68 274 air

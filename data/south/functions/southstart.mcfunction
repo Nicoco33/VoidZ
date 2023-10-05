@@ -12,8 +12,10 @@ team add southteam "South Team"
 team modify southteam color gold
 
 # SET Missions
-scoreboard objectives add south_mission dummy "Objectifs : Récupérez les 2 Water Pumps !"
+scoreboard objectives add south_mission dummy "Objectifs : Réactivez les 2 Water Pumps !"
 scoreboard objectives setdisplay sidebar.team.gold south_mission
+
+scoreboard players add #south_started south_mission 1
 
 # Set Valet House Mission
 scoreboard players add Valet_House south_mission 0
