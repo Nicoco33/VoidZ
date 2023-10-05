@@ -1,2 +1,0 @@
-team remove southteam
-scoreboard objectives remove south_mission
