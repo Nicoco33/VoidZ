@@ -1,5 +1,5 @@
-team add south_team "South Team"
-team modify south_team color yellow
+team add southteam "South Team"
+team modify southteam color gold
 scoreboard objectives add south_mission dummy "Objectifs : Récupérez les 2 Water Pumps !"
-scoreboard objectives setdisplay sidebar.team.yellow south_mission
-execute as @a[team=south_team] run scoreboard players add @s south_mission 0
+scoreboard objectives setdisplay sidebar.team.gold south_mission
+scoreboard players add global south_mission 0

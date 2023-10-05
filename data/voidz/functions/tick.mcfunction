@@ -9,6 +9,6 @@ execute as @a[x=16.5, y=71, z=43.5, distance=..1, scores={class=3}] run function
 
 
 # SOUTH
-execute as @e[x=14, y=69, z=97, dx=.5, type=player, team=!south_team] run function south:team/join_team
-execute as @e[x=14, y=69, z=93, dx=.5, type=player, team=south_team] run function south:team/leave_team
-execute as @e[x=14, y=69, z=101, dx=.5, type=player, team=south_team] run scoreboard players add @s south_mission 1
+execute as @e[x=8, y=75, z=218.5, dx=10, type=player, team=!southteam] run function south:team/join_team
+execute as @e[x=8, y=74, z=212.5, dx=10, dy=.2, type=player, team=southteam] run function south:team/leave_team
+execute as @e[x=15, y=75, z=236, dx=.5, type=player, team=southteam] run scoreboard players add global south_mission 1

@@ -2,3 +2,5 @@ execute as @p run tellraw @a ["\n========= South Side =========\n\n",{"text":" W
 execute as @p run fill 21 75 217 9 78 217 minecraft:oak_fence
 
 execute as @p run setblock 10 71 228 air
+
+function south:southreset
