@@ -1,0 +1,46 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "south:standardtable/valuablecommon"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "south:standardtable/potioncommon"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "south:standardtable/ressourcecommon"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skeleton_skull",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"attended_skull\"],display:{Name:'[{\"text\":\"Skeleton skull\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"The attendant skeleton skull, it looks like a key, only 8 teeth still.\",\"italic\":false}]']},Enchantments:[{}]}"
+						}
+					]
+				}
+                ]
+            }
+	]
+}
