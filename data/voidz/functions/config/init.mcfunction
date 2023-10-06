@@ -15,9 +15,6 @@ execute as @p run gamerule naturalRegeneration false
 
 #kill @e[type=villager]
 
-# TIMER
-scoreboard objectives add timer dummy
-scoreboard players add is_started timer 0
 
 # ===========
 # Objectives
@@ -35,6 +32,7 @@ scoreboard objectives add grogory dummy
 scoreboard objectives setdisplay sidebar grogory
 scoreboard players set grogory_state grogory 0
 function spawn:placeshop
+function spawn:villagers/init_villager
 
 function south:southreset
 

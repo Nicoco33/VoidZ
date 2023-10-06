@@ -13,13 +13,13 @@ execute as @a[x=16.5, y=71, z=43.5, distance=..1] unless score @s class matches 
 execute as @a[x=16.5, y=71, z=43.5, distance=..1, scores={class=3}] run function voidz:players/classes/tank/already_tank
 
 # Interaction villagers
-execute at @e[type=villager, name="Gregory"] as @a[distance=..2] if score grogory_state grogory matches 0 run function spawn:villagers/grogory_presentation
+execute at @e[type=villager, name="Grogory"] as @a[distance=..2] if score grogory_state grogory matches 0 run function spawn:villagers/grogory_presentation
 execute if score is_grogory_timer grogory matches 1 run scoreboard players add grogory_timer grogory 1
 execute if score grogory_timer grogory matches 60 run scoreboard players set grogory_state grogory 2 
 execute if score grogory_timer grogory matches 60 run scoreboard players set is_grogory_timer grogory 0
 execute if score grogory_timer grogory matches 60 run scoreboard players set grogory_timer grogory 0
-execute at @e[type=villager, name="Gregory"] as @a[distance=2..] if score grogory_state grogory matches 2 run scoreboard players set grogory_state grogory 3
-execute at @e[type=villager, name="Gregory"] as @a[distance=..2] if score grogory_state grogory matches 3 run function spawn:villagers/grogory_talks
+execute at @e[type=villager, name="Grogory"] as @a[distance=2..] if score grogory_state grogory matches 2 run scoreboard players set grogory_state grogory 3
+execute at @e[type=villager, name="Grogory"] as @a[distance=..2] if score grogory_state grogory matches 3 run function spawn:villagers/grogory_talks
 
 # SOUTH
 execute if score #south_started south_mission matches 1 run function south:south_tick
