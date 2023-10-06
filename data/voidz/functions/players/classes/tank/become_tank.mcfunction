@@ -20,5 +20,3 @@ scoreboard players set @s class 3
 
 tellraw @s [{"text":"Tu es maintenant","color":"white"}]
 tellraw @s [{"text":"⚜ TANK\n","color":"red"}]
-
-teleport @s 19 71 43.5

@@ -22,4 +22,3 @@ scoreboard players set @s class 1
 
 tellraw @s [{"text":"Tu es maintenant","color":"white"}]
 tellraw @s [{"text":"🏹 ARCHER\n","color":"green"}]
-teleport @s 19 71 35.5

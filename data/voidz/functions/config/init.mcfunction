@@ -28,7 +28,9 @@ scoreboard objectives add Sneaking_ps minecraft.custom:minecraft.sneak_time
 
 # Spawn init
 function spawn:placeshop
+function spawn:initclasses
 
+# Level reset
 function south:southreset
 
 
