@@ -1,0 +1,1 @@
+effect give @s minecraft:poison 90 0 false

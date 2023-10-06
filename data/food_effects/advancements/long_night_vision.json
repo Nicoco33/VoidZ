@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{Effect:\"minecraft:long_night_vision\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "food_effects:effects/long_night_vision"
+  }
+}

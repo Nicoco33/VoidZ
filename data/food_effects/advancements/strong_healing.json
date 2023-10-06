@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{Effect:\"minecraft:strong_healing\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "food_effects:effects/strong_healing"
+  }
+}

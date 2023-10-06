@@ -1,0 +1,1 @@
+effect give @s minecraft:slowness 90 0 false

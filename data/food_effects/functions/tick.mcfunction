@@ -1,0 +1,3 @@
+function food_effects:detect_potions
+function food_effects:lore
+function food_effects:advancements

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{Effect:\"minecraft:strong_strength\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "food_effects:effects/strong_strength"
+  }
+}

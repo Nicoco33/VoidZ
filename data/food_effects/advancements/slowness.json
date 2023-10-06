@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{Effect:\"minecraft:slowness\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "food_effects:effects/slowness"
+  }
+}

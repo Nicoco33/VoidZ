@@ -1,0 +1,1 @@
+effect give @s minecraft:night_vision 480 0 false

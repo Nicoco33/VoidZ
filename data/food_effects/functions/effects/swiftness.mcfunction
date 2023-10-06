@@ -1,0 +1,1 @@
+effect give @s minecraft:speed 180 0 false

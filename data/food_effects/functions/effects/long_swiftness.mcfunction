@@ -1,0 +1,1 @@
+effect give @s minecraft:speed 480 0 false

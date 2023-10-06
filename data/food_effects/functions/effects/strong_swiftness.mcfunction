@@ -1,0 +1,1 @@
+effect give @s minecraft:speed 90 1 false

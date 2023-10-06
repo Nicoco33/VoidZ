@@ -1,0 +1,1 @@
+effect give @s minecraft:regeneration 22 1 false

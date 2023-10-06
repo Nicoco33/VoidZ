@@ -1,6 +1,51 @@
 {
 	"pools": [
 		{
+			"rolls": 5,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "south:standardtable/valuablecommon"
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "south:standardtable/potioncommon"
+				}
+			]
+		},
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "south:standardtable/ressourcecommon"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "south:standardtable/weaponuncommon"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "south:standardtable/stuffuncommon"
+				}
+			]
+		},
+		{
 			"rolls": {
 				"min": 0,
 				"max": 1
@@ -9,11 +54,11 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:golden_helmet",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.1,Slot:head,Name:\"generic.knockback_resistance\",UUID:[I;-12395,19183,125043,-38366]}],display:{Name:'[{\"text\":\"Uncommon Rusty skeleton crown\",\"italic\":false,\"color\":\"green\"}]',Lore:['[{\"text\":\"The crown of the Skeletonlord.\",\"italic\":false}]']},Enchantments:[{}]}"
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:0.2,Slot:head,Name:\"generic.armor\",UUID:[I;-12395,24383,125043,-48766]}],Trim:{pattern:dune,material:amethyst},display:{Name:'[{\"text\":\"Skeleton lord crown\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Huge crown, not at your size but it will make it.\",\"italic\":false}]']},Enchantments:[{id:\"unbreaking\",lvl:2}]}"
 						},
 						{
 							"function": "minecraft:set_damage",
@@ -24,7 +69,7 @@
 						},
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 1
+							"levels": 0
 						}
 					]
 				}
