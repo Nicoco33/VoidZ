@@ -17,3 +17,7 @@ scoreboard objectives remove south_mission
 # Reset Valet House
 function south:mission/valet_house/reset
 function south:mission/attendant_skull/reset
+
+# South init
+execute positioned 15 77 215 run summon armor_stand ~ ~1 ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,CustomName:"{\"text\":\"Push to start South adventure\",\"color\":\"gold\"}",CustomNameVisible:1b}
+# execute positioned 15 78 215 

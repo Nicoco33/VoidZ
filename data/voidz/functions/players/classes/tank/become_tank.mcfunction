@@ -1,6 +1,6 @@
 clear @s
 
-give @s minecraft:wooden_sword
+give @s minecraft:stone_sword
 
 give @s shield
 give @s leather_boots{display:{color:8991416,Name:'[{"text":"Commune Bottes en cuir ","italic":false,"color":"white"}]',Lore:['[{"text":"Bottes pas folles, mais ya que ca.","italic":false}]']},HideFlags:64}

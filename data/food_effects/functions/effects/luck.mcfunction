@@ -1,0 +1,1 @@
+effect give @s minecraft:luck 300 0 false

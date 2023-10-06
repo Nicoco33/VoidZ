@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{Effect:\"minecraft:water_breathing\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "food_effects:effects/water_breathing"
+  }
+}

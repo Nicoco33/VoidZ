@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{Effect:\"minecraft:invisibility\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "food_effects:effects/invisibility"
+  }
+}
