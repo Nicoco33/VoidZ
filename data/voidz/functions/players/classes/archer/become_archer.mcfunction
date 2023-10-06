@@ -8,15 +8,16 @@ give @s leather_leggings{display:{color:8439583,Name:'[{"text":"Commune Pantalon
 give @s leather_helmet{display:{color:8439583,Name:'[{"text":"Commune Chapeau en cuir ","italic":false,"color":"white"}]',Lore:['[{"text":"Ca sent encore la vachette","italic":false}]']}}
 give @s minecraft:potion{CustomPotionColor:16711680,display:{Name:'[{"text":"Common healing potion","italic":false,"color":"gray"}]',Lore:['[{"text":"Use it at any time.","italic":false}]']},HideFlags:39,CustomPotionEffects:[{Id:6,Duration:1}]} 3
 give @s minecraft:potion{CustomPotionColor:61183,display:{Name:'[{"text":"Common swiftness potion","italic":false,"color":"gray"}]',Lore:['[{"text":"Exclusively to run away.","italic":false}]']},HideFlags:39,CustomPotionEffects:[{Id:1,Duration:600}]} 3
+give @s carrot 16
 
 # Donne 20 flèches au joueur
 give @s minecraft:arrow 20
 
 # Définit la santé maximale du joueur à 10
-attribute @s minecraft:generic.max_health base set 10
+attribute @s minecraft:generic.max_health base set 14
 
 # Définit la vitesse de déplacement du joueur à 1.5 (150% de la vitesse normale)
-attribute @s generic.movement_speed base set 0.2
+attribute @s generic.movement_speed base set 0.1
 
 scoreboard players set @s class 1
 

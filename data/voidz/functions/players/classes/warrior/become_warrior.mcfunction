@@ -8,7 +8,7 @@ give @s leather_leggings{display:{color:11546150,Name:'[{"text":"Commune Pantalo
 give @s leather_helmet{display:{color:11546150,Name:'[{"text":"Commune Chapeau en cuir ","italic":false,"color":"white"}]',Lore:['[{"text":"Ca sent encore la vachette","italic":false}]']}}
 give @s minecraft:potion{CustomPotionColor:16711680,display:{Name:'[{"text":"Common healing potion","italic":false,"color":"gray"}]',Lore:['[{"text":"Use it at any time.","italic":false}]']},HideFlags:39,CustomPotionEffects:[{Id:6,Duration:1}]} 3
 give @s minecraft:potion{CustomPotionColor:16764928,display:{Name:'[{"text":"Common strenght potion","italic":false,"color":"gray"}]',Lore:['[{"text":"Give strenght for a short time.","italic":false}]']},HideFlags:39,CustomPotionEffects:[{Id:5,Duration:600}]} 3
-
+give @s carrot 16
 
 
 # Définit la santé maximale du joueur à 10
