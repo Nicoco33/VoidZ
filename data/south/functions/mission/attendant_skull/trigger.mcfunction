@@ -1,0 +1,1 @@
+playsound minecraft:south_attendant_skull_hint master @a ~ ~ ~ 1 1 0

@@ -1,1 +1,1 @@
-loot give @s loot south:skeletonattendantloottable
+playsound voidz:coucou ambient @a ~ ~ ~ 1 1 0
