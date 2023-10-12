@@ -32,11 +32,10 @@ scoreboard objectives add grogory dummy
 scoreboard objectives setdisplay sidebar grogory
 scoreboard players set grogory_state grogory 0
 function spawn:placeshop
-<<<<<<< HEAD
+
+
 function spawn:initclasses
-=======
 function spawn:villagers/init_villager
->>>>>>> 5b8d843075c88039fd404e11a28f91f092d55381
 
 # Level reset
 function south:southreset

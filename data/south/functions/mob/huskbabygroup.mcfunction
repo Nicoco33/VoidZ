@@ -1,2 +1,3 @@
-execute run summon husk ~ ~ ~ {DeathLootTable:"south:huskloottable",IsBaby:1,CustomName:'[{"text":"Mini mummy","color":"grey"}]',Health:20,Attributes:[{Name:"generic.movement_speed",Base:0.2f}]}
+execute run summon husk ~ ~ ~ {DeathLootTable:"south:huskloottable",IsBaby:1,CustomName:'[{"text":"Mini mummy","color":"grey"}]',Health:16,Attributes:[{Name:"generic.movement_speed",Base:0.2f}]}
+execute run summon husk ~ ~ ~ {DeathLootTable:"south:huskloottable",IsBaby:1,CustomName:'[{"text":"Mini mummy","color":"grey"}]',Health:16,Attributes:[{Name:"generic.movement_speed",Base:0.2f}]}
 execute run summon husk ~ ~ ~ {DeathLootTable:"south:huskloottable",IsBaby:1,CustomName:'[{"text":"Tiny mummy","color":"white"}]',Health:20,Attributes:[{Name:"generic.movement_speed",Base:0.3f}]}
