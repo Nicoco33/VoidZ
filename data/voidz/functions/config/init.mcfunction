@@ -13,7 +13,7 @@ execute as @p run weather clear
 execute as @p run gamerule naturalRegeneration false
 
 
-#kill @e[type=villager]
+# kill @e[type=villager]
 
 
 # ===========
@@ -29,7 +29,7 @@ scoreboard objectives add Sneaking_ps minecraft.custom:minecraft.sneak_time
 
 # Spawn init
 scoreboard objectives add grogory dummy
-scoreboard objectives setdisplay sidebar grogory
+# scoreboard objectives setdisplay sidebar grogory
 scoreboard players set grogory_state grogory 0
 function spawn:placeshop
 

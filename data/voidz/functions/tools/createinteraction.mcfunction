@@ -1,0 +1,1 @@
+execute run summon interaction ~ ~ ~ {width:1.01f,height:1.01f,response:1b}
